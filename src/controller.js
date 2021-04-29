@@ -12,4 +12,4 @@ const html = (req, res) => {
     res.end('<h1> Hello ' + param + ' server!</h1>');;
 };
 
-module.exports = {root, text, html };
+export { root, text, html };
